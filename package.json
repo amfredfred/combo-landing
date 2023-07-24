@@ -1,5 +1,5 @@
 {
-  "name": "1goride_landing",
+  "name": "combodex-landing",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -20,6 +20,8 @@
     "framer-motion": "^10.12.22",
     "gh-pages": "^5.0.0",
     "git-pages": "^0.8.1",
+    "i": "^0.3.7",
+    "npm": "^9.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2",
@@ -37,5 +39,5 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.0"
   },
-  "homepage": "https://amfredfred.github.io/1goride_landing"
+  "homepage": "https://amfredfred.github.io/combodex-landing"
 }

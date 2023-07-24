@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion'
-import OneGoLogo from '../../../../assets/img/1-goride-logo.png'
+import ComboLogo from '../../../../assets/img/logo-transparent.png'
 import { Button } from '@mui/material'
 
 export default function Heading() {
@@ -12,11 +12,11 @@ export default function Heading() {
                 <h2 className="h2-headline">
                     <motion.img
                         className='site-logo'
-                        src={OneGoLogo}
-                    />ride
+                        src={ComboLogo}
+                    />
                 </h2>
                 <Button   variant='contained' >
-                    Become A Partner
+                    Use App
                 </Button>
             </div>
         </div>
