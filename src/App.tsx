@@ -1,6 +1,6 @@
 import Root from './Root/inexx'
 import { configureChains, createConfig, WagmiConfig } from 'wagmi'
-import { bscTestnet, bsc } from 'wagmi/chains'
+import { bsc } from 'wagmi/chains'
 import { publicProvider } from 'wagmi/providers/public'
 import { Web3Modal } from '@web3modal/react'
 import { EthereumClient, w3mConnectors } from '@web3modal/ethereum'

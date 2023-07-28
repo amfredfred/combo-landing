@@ -4,7 +4,7 @@ import {
 import ArbitrgeScreen from '../../../assets/img/arbitrage-ui.jpg'
 import { motion } from "framer-motion"
 import {
-    SwapVert, Token, Wallet, ArrowForward
+    SwapVert, Token, Wallet
 } from '@mui/icons-material'
 import OfferingPanel from '../../Partials/Offering'
 

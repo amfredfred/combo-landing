@@ -1,6 +1,4 @@
 
-import { motion } from 'framer-motion'
-import ComboLogo from '../../../../assets/img/logo-transparent.png'
 export default function Footing() {
     
     return (
