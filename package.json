@@ -1,5 +1,5 @@
 {
-  "name": "combodex-landing",
+  "name": "combo-landing",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -47,5 +47,5 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.0"
   },
-  "homepage": "https://amfredfred.github.io/combodex-landing"
+  "homepage": "https://amfredfred.github.io/combo-landing"
 }
