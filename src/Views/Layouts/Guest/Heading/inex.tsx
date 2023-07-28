@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion'
-import ComboLogo from '../../../../assets/img/logo-transparent.png'
+import ComboLogo from '../../../../assets/img/combodex-logo.png'
 import { Button } from '@mui/material'
 
 export default function Heading() {
@@ -16,7 +16,9 @@ export default function Heading() {
                     />
                 </h2>
                 <Button   variant='contained' >
-                    Use App
+                    <a target="_blank" href="http://app.combodex.cc">
+                        Use App
+                    </a>
                 </Button>
             </div>
         </div>

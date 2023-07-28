@@ -1,34 +1,15 @@
 import {
-    Button, Alert, Accordion,
-    AccordionSummary,
-    AccordionDetails
+    Button
 } from '@mui/material'
-import { useState } from 'react'
-import ComboDexLogo from '../../../assets/img/logo-transparent.png'
 import ArbitrgeScreen from '../../../assets/img/arbitrage-ui.jpg'
-
 import { motion } from "framer-motion"
 import {
-    Email, AppRegistration,
-    Handshake,
-    NoAccounts,
-    PermIdentity,
-    DocumentScanner, LabelImportant, ExpandMore, ChevronRight, PinDrop, ArrowForward,
-    SwapVert, Token, Wallet
+    SwapVert, Token, Wallet, ArrowForward
 } from '@mui/icons-material'
 import OfferingPanel from '../../Partials/Offering'
 
 export default function Welcome() {
 
-
-    const [expanded, setExpanded] = useState<string | false>(false);
-
-    const handleChange =
-        (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
-            const ev = event
-            console.log(ev.target)
-            setExpanded(isExpanded ? panel : false);
-        };
 
     return (
         <>
@@ -45,10 +26,14 @@ export default function Welcome() {
                         </p>
                         <div className="space-between left">
                             <Button variant='contained' color="warning" disableElevation className='primary-button'  >
-                                Use DApp <ArrowForward />
+                                <a target="_blank" href="http://app.combodex.cc">
+                                    Use App
+                                </a>
                             </Button>
                             <Button variant='contained' color="error" disableElevation className='primary-button'  >
-                                REad DOC <ArrowForward />
+                                <a target="_blank" href="http://combodex.gitbook.io/home">
+                                    REad DOC
+                                </a>
                             </Button>
                         </div>
                     </div>
